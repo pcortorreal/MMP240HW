@@ -1,0 +1,60 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+	font-family: 'Josefin Slab', serif;
+}
+
+.wrapper {
+  display: inline-block;
+  column-count: 3;
+  column-gap: 0px;
+}
+
+.box img{
+  max-width: 100%;
+  max-height: auto;
+  float: left;
+}
+
+/************ NAV BAR *************/
+.nav-container { 	
+max-height: 100%;
+max-width: 100%;
+margin-right: 0 auto;
+margin-left: 0 auto;
+font-size: 300%;
+text-align: center;
+} 
+
+.nav-container ul{
+margin-right: 0 auto;
+margin-left: 0 auto;
+}  
+
+.nav-container li{
+display: block;
+}
+
+.nav-container a{
+display: inline-block;
+}
+
+
+.nav-container a:hover{ 
+cursor: pointer;
+}
+
+.nav-container a:visited{
+color: #000000;
+}
+
+.nav-container a:active{
+background-color: #551111;
+}
+
+.nav-container a:link{
+color: #000000;
+text-decoration:none;
+}
