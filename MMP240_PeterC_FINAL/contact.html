@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Beckenstein Fabrics</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="stylesheet-contact.css">
+<link href="https://fonts.googleapis.com/css?family=Arapey|Gilda+Display" rel="stylesheet">
+<script type="text/javascript" src="libraries/p5/p5.js">
+</script>
+</head>
+<body>
+<div class="center-div">
+  <div class="nav">
+  <ul>
+  <li><a href="index.html">Home</a></li>   
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="services.html">Services</a></li>
+  <li><a href="blog.html">Blog</a></li>
+  </ul>
+  </div>
+</div>
+<div class="center-div">
+  <div id="logo">
+  <img src="Images/Beckenstein-Logo.jpg">
+  </div>
+</div>
+<div id="googleMap" style="width:100%;height:400px;">  
+</div>
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(40.7403531,-73.9951136),
+    zoom:16,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB27XI2qV4388kWR7tCXJsWHImdJdJJU-4&callback=myMap"></script>
+</div>
+<div class="center-div">
+<h1>
+Store Location/Hours:
+</h1>
+<p>
+32 West 20th Street <br>
+New York, NY 10011
+</p>
+<p>
+Mon - Sat: 10am - 6pm <br>
+Sunday: Closed
+</p>
+<h1>
+#: 888-960-9958
+</h1>
+<h1>
+info@beckensteinfabrics.com
+</h1>
+</div>
+<div class="center-div">
+  <div id="icons">
+  <ul>
+  <li><a href="https://www.facebook.com/BeckensteinFabricandInteriors/?rf=454259581365385"><img src="Images/facebook.png"></a></li>
+  <li><a href="https://plus.google.com/+Beckensteinfabrics"><img src="Images/googleplus.png"></a></li>
+  <li><a href="https://www.instagram.com/beckensteinfabrics/?hl=en"><img src="Images/instagrams.png"></a></li>
+  <li><a href="https://www.pinterest.com/beckenstein/"><img src="Images/pinterest.png"></a></li>
+  <li><a href="https://twitter.com/mybeckenstein"><img src="Images/twitter.png"></a></li>
+  </ul>
+  </div>
+</div>
+</body>
+</html>
